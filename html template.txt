@@ -1,0 +1,121 @@
+<body>
+<div id="wrapper"> 
+	<div id="container">
+		<div id="header">
+			<h1><a href="./index.html" id="careerchina">Career·中国</a></h1>
+			<h1><a href="http://www.stanford.edu/group/acsss/cgi-bin/entry/" id="acsss">斯坦福学生学者联谊会</a></h1>
+			<div id="nav">
+				<ul>
+					<li class="current"><a href="./index.html"><span>Home</span></a></li>
+					<li><a href="./introduction.html"><span>Introduction</span></a></li>
+					<li><a href="./strengths.html"><span>Strengths</span></a></li>
+					<li><a href="./team.html"><span>Team</span></a></li>
+					<li><a href="./FAQ.html"><span>FAQ</span></a></li>
+					<li><a href="./contact.html"><span>Contact Us</span></a></li>
+					<li class="last-child"><a href="./index_c.html"><span>中文</span></a></li>
+				</ul>
+			</div>
+			<!-- #nav -->			
+		</div>
+		<!-- #header - end -->
+		
+		
+		
+<body id="chinese">
+<div id="wrapper"> 
+	<div id="container">
+		<div id="header">
+			<h1><a href="./index.html" id="careerchina">Career·中国</a></h1>
+			<h1><a href="http://www.stanford.edu/group/acsss/cgi-bin/entry/" id="acsss">斯坦福学生学者联谊会</a></h1>
+			<div id="nav">
+				<ul>
+					<li class="current"><a href="./index_c.html"><span>首页</span></a></li>
+					<li><a href="./introduction_c.html"><span>简介</span></a></li>
+					<li><a href="./strengths_c.html"><span>优势</span></a></li>
+					<li><a href="./team_c.html"><span>团队</span></a></li>
+					<li><a href="./FAQ_c.html"><span>FAQ</span></a></li>
+					<li><a href="./contact_c.html"><span>联系我们</span></a></li>
+					<li class="last-child"><a href="./index.html"><span>English</span></a></li>
+				</ul>
+			</div>
+			<!-- #nav -->			
+		</div>
+		<!-- #header - end -->
+		
+		
+		<div id="footer">
+			<div class="clients">
+				<h2>Partners</h2>
+				<ul class="items">
+					<li><a href="http://studentaffairs.stanford.edu/cdc"><img src="./media/images/partners/CDC.png" alt="partner name" /></a></li>
+					<li><a href="http://www.its.caltech.edu/~chinese/"><img src="./media/images/partners/caltech.png" alt="partner name" /></a></li>
+					<li><a href="http://bcssa.us/newsite/"><img src="./media/images/partners/UCBerkeley.png" alt="partner name" /></a></li>
+					<li><a href="http://www.cssaucla.org/"><img src="./media/images/partners/UCLA.png" alt="partner name" /></a></li>
+					<li><a href="http://www.ucdchinese.org/"><img src="./media/images/partners/UCDavis.png" alt="partner name" /></a></li>
+
+
+				</ul>
+			</div>
+			<div class="clients">
+				<ul class="items">
+					<li class="dummy"></li>
+					<li><a href="http://groups.yahoo.com/group/ucsb_cssa/"><img src="./media/images/partners/UCSB.png" alt="partner name" /></a></li>
+					<li><a href="http://www.ucsdcssa.org/"><img src="./media/images/partners/UCSD.png" alt="partner name" /></a></li>
+					<li><a href="http://www-scf.usc.edu/~usccssa/"><img src="./media/images/partners/USC.png" alt="partner name" /></a></li>
+					
+				</ul>
+		
+			</div>
+			<div class="columns">
+				<p id="copy" class="alignright">Copyright 2012 Career Ch!na.</p>
+			</div>
+
+		</div>
+		<!-- #footer - end --> 
+		
+	</div>
+	<!-- #container - end -->
+	</div>
+<!-- #wrapper - end -->
+
+
+
+
+
+
+
+
+			<div class="sidebar">
+				<div class="widget">
+					<h2 class="type-2">Menu</h2>
+					<ul class="menu-1">
+						<li><a href="./index.html"><span>Home</span></a></li>
+						<li  class="current"><a href="./introduction.html"><span>Introduction</span></a></li>
+						<li><a href="./strengths.html"><span>Strengths</span></a></li>
+						<li><a href="./team.html"><span>Team</span></a></li>
+						<li><a href="./FAQ.html"><span>FAQ</span></a></li>
+						<li><a href="./contact.html"><span>Contact Us</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- #content - end -->
+	
+
+
+	
+			<div class="sidebar">
+				<div class="widget">
+					<h2 class="type-2">Menu</h2>
+					<ul class="menu-1">
+						<li><a href="./index_c.html"><span>首页</span></a></li>
+						<li  class="current"><a href="./introduction_c.html"><span>简介</span></a></li>
+						<li><a href="./strengths_c.html"><span>优势</span></a></li>
+						<li><a href="./team_c.html"><span>团队</span></a></li>
+						<li><a href="./FAQ_c.html"><span>FAQ</span></a></li>
+						<li><a href="./contact_c.html"><span>联系我们</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- #content - end -->

@@ -1,0 +1,117 @@
+
+.columns { width:100%; float: left; clear: both; min-width: 1px; margin: 10px 0;}
+.columns:last-child { margin: 10px 0 -20px; }
+.columns:first-child { margin: 10px 0; }
+.columns .columns { margin: 0;}
+
+
+/* FIRST LEVEL */
+.columns > div { margin-left: 4%; float: left; }
+.columns > div:first-child { margin-left: 0 !important; }
+.columns > .half { width: 48%; }
+.columns > .half:first-child { width: 48%; margin-right: -1px;/*ie7*/}
+.columns > .third { width: 31%; }
+.columns > .third:first-child { width: 30%; }
+.columns > .fourth { width: 22%; }
+.columns > .fourth:first-child { width: 22%; }
+.columns > .two-third { width: 65%; }
+.columns > .two-third:first-child { width: 65%; }
+.columns > .three-fourth { width: 74%; }
+.columns > .three-fourth:first-child { width: 74%; }
+
+/* SECOND LEVEL IN HALF */
+.half .columns > div {margin-left: 6%;}
+.half .columns > .half {width: 48%; }
+.half .columns > .half:first-child {width: 46%;}
+.half .columns > .third { width: 29%}
+.half .columns > .third:first-child {}
+.half .columns > .fourth {}
+.half .columns > .fourth:first-child {}
+.half .columns > .two-third{}
+.half .columns > .two-third:first-child {}
+.half .columns > .three-fourth {}
+.half .columns > .three-fourth:first-child {}
+
+
+/* SECOND LEVEL IN THIRD */
+.third .columns > div {margin-left: 10%;}
+.third .columns > .half { width: 45%}
+.third .columns > .half:first-child { width: 45%}
+.third .columns > .third {}
+.third .columns > .third:first-child {}
+.third .columns > .fourth {}
+.third .columns > .fourth:first-child {}
+.third .columns > .two-third{}
+.third .columns > .two-third:first-child {}
+.third .columns > .three-fourth {}
+.third .columns > .three-fourth:first-child {}
+
+
+/* SECOND LEVEL IN FOURTH */
+.fourth .columns > .half {}
+.fourth .columns > .half:first-child {}
+.fourth .columns > .third {}
+.fourth .columns > .third:first-child {}
+.fourth .columns > .fourth {}
+.fourth .columns > .fourth:first-child {}
+.fourth .columns > .two-third{}
+.fourth .columns > .two-third:first-child {}
+.fourth .columns > .three-fourth {}
+.fourth .columns > .three-fourth:first-child {}
+
+
+/* SECOND LEVEL IN TWO-THIRD */
+.two-third .columns > div { margin-left: 4%; }
+.two-third .columns > .half { width: 48%;}
+.two-third .columns > .half:first-child { width: 48%;}
+.two-third .columns > .third {}
+.two-third .columns > .third:first-child {}
+.two-third .columns > .fourth {}
+.two-third .columns > .fourth:first-child {}
+.two-third .columns > .two-third{}
+.two-third .columns > .two-third:first-child {}
+.two-third .columns > .three-fourth {}
+.two-third .columns > .three-fourth:first-child {width: 73%;}
+
+.two-third:first-child .columns > div { margin-left: 4%; }
+.two-third:first-child .columns > .half { width: 47%;}
+.two-third:first-child .columns > .half:first-child { width: 49%;}
+.two-third:first-child .columns > .third {}
+.two-third:first-child .columns > .third:first-child {}
+.two-third:first-child .columns > .fourth {}
+.two-third:first-child .columns > .fourth:first-child {}
+.two-third:first-child .columns > .two-third{}
+.two-third:first-child .columns > .two-third:first-child {}
+.two-third:first-child .columns > .three-fourth {}
+.two-third:first-child .columns > .three-fourth:first-child {}
+
+
+/* SECOND LEVEL IN THREE-FOURTH */
+.three-fourth .columns > .half {}
+.three-fourth .columns > .half:first-child {}
+.three-fourth .columns > .third {}
+.three-fourth .columns > .third:first-child {}
+.three-fourth .columns > .fourth {}
+.three-fourth .columns > .fourth:first-child {}
+.three-fourth .columns > .two-third{}
+.three-fourth .columns > .two-third:first-child {}
+.three-fourth .columns > .three-fourth {}
+.three-fourth .columns > .three-fourth:first-child {}
+
+.main .columns .columns { margin-top: -10px; }
+
+		/*columns - breakdown/debug - in case of any problems, uncomment the selectors below */
+/*
+.columns { background: #ddd; }
+.columns .columns { background: #ccc }
+.columns > div { background: #bbb; }
+.columns .columns > div { background: #aaa; }
+.columns > div > * { background: #888; }
+.columns > div > *:before { content: "column"; border: 1px solid #ddd; background: rgba(0,0,0,.5); color: #ddd; width: 100%; line-height: 20px; display: block; margin: 0 -100% -20px 0; z-index: 999; position: relative;font-size: 10pt !important; font-weight: bold;}
+.columns .columns:before { content: "";border: none; background: none; }
+.columns > .columns > div > *:before { content: "BAD NESTING! of: '.columns' -> .columns element can't be an immediate child of .columns"; background: rgba(200,0,0,.5)}
+*/
+/*
+#wrapper:before { content: "sdasda"; border-left: 1px solid red;border-right: 1px solid red; width: 980px; position: fixed; top: 0; right: 50%; z-index: 9999; margin-right: -490px; background: rgba(100,0,0,.5)}
+#wrapper:after { content: "sdasda"; border-left: 1px solid red;border-right: 1px solid red; width: 980px; position: fixed; bottom: 0; right: 50%; z-index: 9999; margin-right: -490px;background: rgba(100,0,0,.5)}
+*/

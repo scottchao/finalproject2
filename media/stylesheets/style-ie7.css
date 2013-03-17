@@ -1,0 +1,94 @@
+/* - css info -
+author: Mateusz Jastrzebski 
+contact: contact.pordesign@gmail.com
+- */
+
+#nav a { }
+
+.popular .items li,
+.featured .items li,
+blockquote p,
+#twitter_div.type-2,
+.news .meta,
+.js .pip .enlarged,
+.tags li a { }
+
+.button { border-bottom: 1px solid #818181; border-right: 1px solid #ddd;}
+
+.frame-holder.alignleft img { float: left; }
+.media .frame-holder img { float: left; }
+
+.frame-holder {}
+.frame-holder.preview.alignright { position: relative; padding-left: 30px; margin-left: 0 !important;}
+.frame-holder.preview.alignright img { float: left; position: relative; margin: 0; }
+
+ul.media { float: left; width: 113%; }
+
+.addthis.alignright { margin-left: 0 !important; padding-left: 30px; }
+
+/*.clients ul.items { width: 100%}*/
+
+.success-stories .media.alignleft { float: left;}
+.success-stories .media.alignright { float: right;}
+
+.success-stories .media.alignleft * { float: left;}
+.success-stories .media.alignright * { float: right;}
+
+blockquote p { position: relative; background: none; margin-bottom: 0px; }
+
+#twitter_div.type-2 { padding-bottom: 70px; }
+
+#content.left-sidebar .main { margin-right: -980px; clear: left; position: relative;}
+#content.left-sidebar .sidebar { margin-left: 0px; }
+
+#title .flickr-feed ul.items { float: left; display: block; height: 120px;}
+#title .flickr-feed ul.items li { float: left;}
+
+#title #twitter_update_list { }
+#title #twitter_update_list li { display: block; float: left; width: 30%; }
+#title #twitter_update_list li { color: #fff; }
+
+.button input { padding: 0 !important; margin: 0 !important;}
+
+.gallery.type-1 .media { float: left; display: block; width:467px;}
+.gallery.type-1 .desc { float: left; display: block;width: 430px;}
+
+.gallery.type-1 > li { margin-top: 20px; }
+.gallery.type-1 > li:first-child { margin-top: 0px; }
+
+.post-nav { margin: 20px 0 0;}
+
+#title .success-stories .slider-nav { bottom: -22px; top: auto; left: 0; }
+#title .success-stories .slider-pagination { bottom: -24px; left: 68px; }
+
+
+#twitter_div.type-2 .button { margin-top:  45px !important; margin-bottom: 0px !important;}
+#twitter_div.type-2 { padding-bottom: 20px !important}
+
+.button + .hr { margin-top: 20px; }
+
+.sidebar { padding-bottom: 20px; }
+
+#twitter_div.type-1 li { margin-bottom: 60px; padding-top: 0px; }
+
+form.search input[type="submit"] { right: 30px !important; top: 43px; }
+
+.testimonials.type-3 li:first-child { margin-left: 0; }
+
+.news .header { float: left; width: 100%; margin-bottom: 20px;}
+.news .header .title { width: 65%; float: left; padding-right: 5%; padding-bottom: 15px; }
+.news .meta { float: left; width: 29% !important; display: block; }
+.news .meta ul.items { width: 100%; position: relative; margin: 0; height: auto;top: 0;}
+.news.type-2 .meta,
+.news.type-2 .meta ul.items { width: 80px; }
+
+.news .meta ul.items li { margin: 0 0 0 20px;  float: left; display: block; vertical-align: top;}
+.news .meta ul.items li span { font-size: 17px; font-weight: bold; display: block; line-height: 1em; }
+
+#nav ul ul li.parent > ul > li:first-child > a > span { padding-left: 20px;margin-left: 0px; }
+
+#header h1 { float: left; margin: 0 0 -80px 0; height: 80px; padding: 0; width: 200px; position: relative; z-index: 1000;}
+#careerchina { font-size: 13px; color:  #262626; text-decoration: none; line-height: 1em;  background: url(../images/p/logo_hor.png) 0 0 no-repeat;padding: 50px 0 0 18px; display: block; margin-top: 13px;}
+/*
+#acsss { font-size: 13px; color:  #ae1217; text-decoration: none; line-height: 1em;  background: url(../images/p/logo_acsss.png) 0 0 no-repeat;padding: 50px 0 0 15px; display: block; margin-top: 13px; margin-left: -85px; }
+*/
