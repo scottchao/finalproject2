@@ -58,19 +58,19 @@ form .error { background: url(../images/error.png) 100% 4px no-repeat; }
 
 #container { margin: 0 auto; width: 980px;}
 #container:after { display: block; visibility: hidden; content: "."; height: 0; line-height: 0; font-size: 0; clear: both; }	
-<!--#profile {width: 65%; float:left;}
-#profile {position: relative;z-index: ;margin: ;)
--->
+/*#profile {width: 65%; float:left;}
+#profile {position: relative;z-index: 999;margin: 5px 0px 0px 285px;)
+*/
 #header, #content {width: 100%; float: left;}
 #header { position: relative; z-index: 999; margin: 20px 0;}
 #footer { float: left;padding: 0px 1880px; margin: 0 -1860px; /*special treatment due to fluid background*/ width: 940px;}
 #footer .columns { padding: 0 1860px 20px; margin: 0 -1860px;  /*special [columns] treatment due to fluid background*/ background: #f8f8f8 url(../images/gr-6.png) 0 0 repeat-x; }
-
+.profile {width: 500px; clear:both; padding-bottom: 30px; margin-top: 10px;}
 .main { width: 655px; clear: both; padding-bottom: 30px; margin: 0 40px;}
 .main.wide { width: 980px; margin: 0; }
 /* experimental */ .sidebar + .main { margin-top: -40px; }
 .sidebar { width: 245px; padding-top: 30px; }
-.main, .sidebar { float: left; }
+.main, .sidebar, .profile{ float: left; }
 
 #content.left-sidebar { background: url(../images/gr-3b.png) 0 0 repeat-y; }
 #content.right-sidebar { background: url(../images/gr-3.png) 100% 0 repeat-y; }
