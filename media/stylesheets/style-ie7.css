@@ -46,7 +46,7 @@ blockquote p { position: relative; background: none; margin-bottom: 0px; }
 
 #title #twitter_update_list { }
 #title #twitter_update_list li { display: block; float: left; width: 30%; }
-#title #twitter_update_list li { color: #fff; }
+#title #twitter_update_list li { color: #262626; }
 
 .button input { padding: 0 !important; margin: 0 !important;}
 
