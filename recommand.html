@@ -43,13 +43,53 @@
 </script>
 <style>
 
-a.my {
-    display:inline-block;
-    width:900px;
-    height:500px;
+<style>
+div.clickable { /* Containing div must have a position value */
+    position:relative;
+    height:200px;
+    width:980px;
+     margin-left:285px;
+     margin-top:10px;
+    //border:1px solid #00ff00;
+    background-color:#f8f8f8;
+ }
+div.clickable a {
+    width:100%;
+    height:100%;
     background-color:#ccc;
-    border:1px solid #ff0000;
+    position:absolute;
+    top:0;
+    left:0; 
+    z-index:999; /* raises anchor tag above everything else in div */
+    opacity: 0; /*workaround to make clickable in IE */
 }
+div.clickable img{
+    display:inline;
+    position:relative;
+    margin-top:10px;
+    margin-left:10px;
+    top:0;
+    left:0; 
+    width:150px;
+    height:150px;
+}
+div.clickable h2{
+    position:relative;
+    margin-top:0;
+    margin-left:100px;
+    top:-150px;
+    left:100px;
+}
+
+div.clickable p{
+    position:relative;
+    margin-top:0;
+    margin-left:100px;
+    top:-150px;
+    left:100px;
+}
+
+
 </style>
 </head>
 
@@ -214,7 +254,7 @@ a.my {
 				</ul>			
 			</div>
 			<!--
-			<div class="sidebar"> -->
+			<div class="sidebar"> 
 				<div class="widget">
 					<h2 class="type-2">Menu</h2>
 					<ul class="menu-3">
@@ -261,9 +301,20 @@ a.my {
 		
 	</div>
 	<!-- #container - end -->
-	</div>
+</div>
 <!-- #wrapper - end -->
-<a class="my" href="http://google.com"><img src="./media/images/p/introduction_header.jpg" alt="" width="245" height="150" /></a> 
+<div class="clickable">
+    <a href="www.google.com"></a>
+    <img border="0" src="/images/pulpit.jpg" alt="Pulpit rock" width="304" height="228">
+    <h2>Linkedin</h2>
+    <p>ello2</p>
+</div>
+<div class="clickable">
+    <a href="www.google.com"></a>
+    <img border="0" src="/images/pulpit.jpg" alt="Pulpit rock" width="304" height="228">
+
+</div>
+
 <script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
 <script src="http://twitter.com/statuses/user_timeline/pordesign.json?callback=twitterCallback2&count=10" type="text/javascript"></script>
 <script type="text/javascript" src="http://api.flickr.com/services/feeds/groups_pool.gne?id=675729@N22&lang=en-us&format=json&jsoncallback=flickr_callback"></script>
