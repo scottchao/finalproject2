@@ -864,7 +864,7 @@ form.search input[type="submit"]:active {}
 .menu-3 a:hover,
 .menu-3 a:focus {color: #000; }
 
-.menu-3 li a { outline: none; padding: 10px 0 10px 15px; display: block; border-bottom: 1px solid #e7e7e7; color: #3c3c3c; }
+.menu-3 li a { outline: none; padding: 10px 0 10px 15px; display: block; color: #3c3c3c; }
 .menu-3 li li a { border-bottom: 1px solid #dee1e2; padding-left: 25px;}
 .menu-3 li li li a { border-bottom: 1px solid #d5d5d5;padding-left: 40px;}
 
