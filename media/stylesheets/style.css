@@ -364,6 +364,19 @@ p + .hr span, h2 + .hr span, h3 + .hr span, h4 + .hr span, h5 + .hr span, h6 + .
 
 #title.type-3 h2 { text-align: left; color: #262626; font-size: 28px; letter-spacing: -1px}
 
+/* scott */	
+#scott {float: left; width: 100%; margin: 0; padding: 0;}
+#scott.type-1 { border-top: 8px solid #212121; border-bottom: 1px solid #dcdee0;  background: url(../images/gr-4.png) 0 0 repeat;}
+#scott.type-1 h2 { color: #edf2f5; font-size: 24px; line-height: 1.4em; background: #212121; width: 655px; padding: 10px 40px 20px; margin: 0;}
+#scott .extras { float: right;width: 205px; padding: 0 20px;}
+#scott .extras .highlight { font-size: 15px; text-align: center;}
+#scott .extras > * { margin-bottom: 0; }
+#scott.type-2 { background: #212121; padding: 0 30px 10px; width: 920px; min-height: 0;}
+#scott.type-2 h2, #title.type-2 h3, #title.type-2 h4, #title.type-2 h5, #title.type-2 h6 { color: #edf2f5; }
+#scott.type-2 h2 { font-size: 24px; line-height: 1.2em; }
+#scott.type-2 p {color: #a5a9ab; }
+#scott.type-3 h2 { text-align: left; color: #262626; font-size: 28px; letter-spacing: -1px}
+
 /* FEATURED SLIDER */
 #featured { background: #212121; float: left; width: 980px; position: relative; border-top: 8px solid #212121; }
 #featured .items { margin: 0; padding: 0; list-style: none; float: left; }
